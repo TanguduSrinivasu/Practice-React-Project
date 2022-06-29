@@ -12,7 +12,5 @@ const Hello = () =>
   {id:'hello',className:'dummyClass'},
   React.createElement('h1',null,'Without Using JSX for HTML(regular HTML')
   )
-
-
 }
 export default Hello
