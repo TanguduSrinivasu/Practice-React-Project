@@ -6,6 +6,7 @@ import Hello from "./components/Hello";
 import PropsWithFun from "./components/PropsWithFun";
 import PropsWithClass from "./components/PropsWithClass";
 import StateExample from "./components/StateExample";
+import Count from "./components/Count";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       </PropsWithFun>
       <PropsWithFun name='Sarath' surName='Sana'></PropsWithFun>
       <PropsWithClass name='Hari' surName='Sana'></PropsWithClass> */}
-      <StateExample></StateExample>
+      {/* <StateExample></StateExample> */}
+      <Count></Count>
       </header>
     </div>
   )
