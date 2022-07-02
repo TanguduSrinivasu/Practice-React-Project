@@ -13,9 +13,11 @@ class StateExample extends Component
     
     changeMsg()
     {
+        // this.state.msg = "Thanks for Subscribing"   /* output will be displayed in console but not in UI so we use setState() to render the change in state */
+        console.log(this.state.msg)
         this.setState({
             msg : 'Thanks for Subcribing'
-        })
+       })
     }
     
     render()
