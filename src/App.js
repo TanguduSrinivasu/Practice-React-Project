@@ -8,6 +8,7 @@ import PropsWithClass from "./components/PropsWithClass";
 import StateExample from "./components/StateExample";
 import Count from "./components/Count";
 import FunClick from "./components/FunClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       {/* <StateExample></StateExample> */}
       {/* <Count></Count> */}
       <FunClick></FunClick>
+      <ClassClick></ClassClick>
       </header>
     </div>
   )
