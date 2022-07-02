@@ -5,12 +5,13 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import PropsWithFun from "./components/PropsWithFun";
 import PropsWithClass from "./components/PropsWithClass";
+import StateExample from "./components/StateExample";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Greet></Greet>
+{/*       <Greet></Greet>
       <Welcome></Welcome>
       <Hello></Hello>
       <PropsWithFun name='Srinu' surName='Tangudu'>
@@ -20,7 +21,8 @@ function App() {
        <button>Success</button>
       </PropsWithFun>
       <PropsWithFun name='Sarath' surName='Sana'></PropsWithFun>
-      <PropsWithClass name='Hari' surName='Sana'></PropsWithClass>
+      <PropsWithClass name='Hari' surName='Sana'></PropsWithClass> */}
+      <StateExample></StateExample>
       </header>
     </div>
   )
