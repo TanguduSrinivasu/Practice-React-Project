@@ -9,6 +9,7 @@ import StateExample from "./components/StateExample";
 import Count from "./components/Count";
 import FunClick from "./components/FunClick";
 import ClassClick from "./components/ClassClick";
+import Parent from "./components/Parent";
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
       <PropsWithClass name='Hari' surName='Sana'></PropsWithClass> */}
       {/* <StateExample></StateExample> */}
       {/* <Count></Count> */}
-      <FunClick></FunClick>
-      <ClassClick></ClassClick>
+      {/* <FunClick></FunClick>
+      <ClassClick></ClassClick> */}
+      <Parent></Parent>
       </header>
     </div>
   )
