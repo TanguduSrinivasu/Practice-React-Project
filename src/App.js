@@ -10,6 +10,7 @@ import Count from "./components/Count";
 import FunClick from "./components/FunClick";
 import ClassClick from "./components/ClassClick";
 import Parent from "./components/Parent";
+import NameList from "./components/NameList";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <Count></Count> */}
       {/* <FunClick></FunClick>
       <ClassClick></ClassClick> */}
-      <Parent></Parent>
+      {/* <Parent></Parent> */}
+      <NameList></NameList>
       </header>
     </div>
   )
