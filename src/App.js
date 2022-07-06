@@ -11,6 +11,10 @@ import FunClick from "./components/FunClick";
 import ClassClick from "./components/ClassClick";
 import Parent from "./components/Parent";
 import NameList from "./components/NameList";
+import Stylesheet from "./components/Stylesheet";
+import InlineStyles from "./components/InlineStyles";
+import styles from './styles.module.css'
+import './styles.css'
 
 function App() {
   return (
@@ -32,7 +36,11 @@ function App() {
       {/* <FunClick></FunClick>
       <ClassClick></ClassClick> */}
       {/* <Parent></Parent> */}
-      <NameList></NameList>
+      {/* <NameList></NameList> */}
+      {/* <Stylesheet></Stylesheet> */}
+      <InlineStyles></InlineStyles>
+      <h1 className="error">App Error</h1>
+      <h1 className={styles.success}>App Success</h1>
       </header>
     </div>
   )
