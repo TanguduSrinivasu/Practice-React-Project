@@ -17,6 +17,7 @@ import styles from './styles.module.css'
 import './styles.css'
 import Forms from "./components/Forms";
 import WithoutForm from "./components/WithoutForm";
+import ParentForPure from "./components/ParentForPure";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       <h1 className="error">App Error</h1>
      <h1 className={styles.success}>App Success</h1> */}
      {/* <Forms></Forms> */}
-     <WithoutForm></WithoutForm>
+     {/* <WithoutForm></WithoutForm> */}
+     <ParentForPure></ParentForPure>
       </header>
     </div>
   )
